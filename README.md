@@ -1,4 +1,7 @@
-# test coverage for  [json-stream (v1.0.0)](https://github.com/mmalecki/json-stream)  [![npm package](https://img.shields.io/npm/v/npmtest-json-stream.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-json-stream) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-json-stream.svg)](https://travis-ci.org/npmtest/node-npmtest-json-stream)
+# npmtest-json-stream
+
+#### basic test coverage for  [json-stream (v1.0.0)](https://github.com/mmalecki/json-stream)  [![npm package](https://img.shields.io/npm/v/npmtest-json-stream.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-json-stream) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-json-stream.svg)](https://travis-ci.org/npmtest/node-npmtest-json-stream)
+
 #### New line-delimeted JSON parser with a stream interface
 
 [![NPM](https://nodei.co/npm/json-stream.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/json-stream)
@@ -70,7 +73,8 @@
     "scripts": {
         "test": "node test/pipe-test.js && node test/json-stream-test.js && node test/throw-in-readable-test.js"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
